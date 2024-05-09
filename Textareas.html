@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> textarea </title>
+    <link rel="stylesheet" href="textareas.css">
+</head>
+<body>
+   <form>
+    <h2>
+        formulario de contacto
+    </h2> 
+    <div class="form_input">
+        <label for="Nombre"> Nombre Completo </label>
+        <input type="text" placeholder="John Doe" id="Nombre" required>
+    </div>
+    <div class="form_input">
+        <label for="email"> ejemplo@gmail.com </label required>
+       <input type="Email" placeholder="email" id="email" required> 
+    </div> 
+    <div class="form_input">
+        <label for="Contraseña"> Contraseña </label required>
+       <input type="password" placeholder="ejemplo1234" id="Contraseña" required> 
+    </div> 
+    <div class="form_input">
+        <label for="mensaje"> Mensaje </label>
+     <textarea placeholder="Deja tu mensaje..." id="mensaje" required></textarea>
+
+    </div>
+    <div class="form_input">
+        <label for="Terminos"> Acepto los terminos y condiciones </label>
+     <input type="checkbox" id="Terminos" class="checkbox" required>
+     <br>
+     <a class="link" href="TerminosyCondiciones.html"> Terminos Y Condiciones </a>
+
+    </div>
+    <div class="form_input">
+     <input type="submit" class="Enviar">
+    </div>
+   </form>
+</body>
+</html>
