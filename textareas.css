@@ -3,7 +3,7 @@ body{
     margin: 0;
     font-family: sans-serif;
     color: #eee;
-    background-color: #222;
+    background: linear-gradient(to bottom, #333, #000)
 
 }
 
@@ -27,13 +27,14 @@ form{
     margin: auto;
     box-shadow: 0 0 45px #fff;
     margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .form_input{
      padding: 6px 20px;
 }
 
-input, textarea{
+input, textarea, select{
 
     width: 100%;
     box-sizing: border-box;
@@ -74,4 +75,23 @@ label{
     text-decoration: none;
     color: #4f9;
     text-shadow: 0 0 15px #4f9;
+}
+
+option{
+
+    background-color: #222;
+}
+
+fieldset{
+
+    border-radius: 5px;
+    border: 1px solid #666;
+    padding: 8 6px 20px 6px;
+    margin: 20px;
+}
+
+legend{
+
+    padding: 0 6px;
+    color: #777;
 }

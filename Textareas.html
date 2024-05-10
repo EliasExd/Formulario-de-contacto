@@ -11,6 +11,8 @@
     <h2>
         formulario de contacto
     </h2> 
+    <fieldset>
+        <legend>Informacion Basica</legend>
     <div class="form_input">
         <label for="Nombre"> Nombre Completo </label>
         <input type="text" placeholder="John Doe" id="Nombre" required>
@@ -19,6 +21,35 @@
         <label for="email"> ejemplo@gmail.com </label required>
        <input type="Email" placeholder="email" id="email" required> 
     </div> 
+    <div class="form_input">
+        <label>Asunto</label>
+        <input type="text" placeholder="El asunto de tu mensaje">
+    </div>
+</fieldset>
+    <div class="form_input">
+    <label> Tipo de usuario
+        <select name="type-of-user" required>
+
+            <option value="user1">Seguidor/a</option>
+            <option value="user2">Empresa</option>
+            <option value="user3">Otros</option>
+        </select>
+        </label>
+    </div>
+    <div class="form_input">
+        <label> Referente
+            <input list="referente" name="referente" required>
+            <datalist id="referente" name="type-of-user">
+    
+                <option value="Un amigo">Un amigo programador</option>
+                <option value="Una empresa">Una empresa en la que trabajo</option>
+                <option value="Un familiar">Un familiar programador</option>
+               
+            </datalist>
+            </label>
+    
+    
+        </div>
     <div class="form_input">
         <label for="Contraseña"> Contraseña </label required>
        <input type="password" placeholder="ejemplo12345" id="Contraseña" required> 
